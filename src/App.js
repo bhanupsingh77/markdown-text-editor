@@ -1,5 +1,10 @@
+import MarkdownEditor from "./component/MarkdownEditor.js";
 function App() {
-  return <div className="p-2 bg-red-200">Hello world!</div>;
+  return (
+    <div className="h-screen pt-8 px-2 border-2 border-red-200">
+      <MarkdownEditor />
+    </div>
+  );
 }
 
 export default App;
