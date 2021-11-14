@@ -9,7 +9,7 @@ function MarkdownEditor() {
     <div className="h-full w-full flex justify-between overflow-hidden">
       <div className="w-1/2">
         <p
-          className="m-0 p-0 border-4 border-solid border-gray-300 bg-gray-100 text-2xl text-center capitalize font-semibold font-mono"
+          className="m-0 p-0 border-4 border-solid border-gray-300 bg-gray-100 text-2xl text-center align-middle capitalize font-semibold font-mono"
           style={{ height: "6%" }}
         >
           Markdown Text
@@ -23,7 +23,7 @@ function MarkdownEditor() {
       </div>
       <div className="w-1/2">
         <p
-          className="m-0 p-0 border-4 border-solid border-gray-300 bg-gray-100 text-2xl text-center capitalize font-semibold font-mono"
+          className="m-0 p-0 border-4 border-solid border-gray-300 bg-gray-100 text-2xl text-center align-middle capitalize font-semibold font-mono"
           style={{ height: "6%" }}
         >
           Converted Text
