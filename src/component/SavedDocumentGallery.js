@@ -42,7 +42,7 @@ function SavedDocumentGallery({ mySky, setOpenSavedDoc, setActiveComponent }) {
       setLoadingDocGalleryData(false);
     }
     initialDocGalleryData();
-  }, []);
+  }, [mySky]);
 
   return (
     <div className="m-4 flex flex-wrap">
