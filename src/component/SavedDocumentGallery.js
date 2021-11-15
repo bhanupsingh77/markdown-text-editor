@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import {
-  mySkyWriteEncryptedJsonFile,
   mySkyReadEncryptedJsonFile,
   MYSKY_DOC_FILE_PATH,
   MYSKY_DOC_FILE_NUMBER_PATH,

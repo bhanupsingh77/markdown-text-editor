@@ -19,7 +19,7 @@ export async function mySkyReadEncryptedJsonFile(mySky, filePath) {
 export async function mySkyWriteEncryptedJsonFile(mySky, jsonData, filePath) {
   try {
     // Set encrypted JSON data at the given path. The return type is the same as getJSONEncrypted.
-    const { data } = await mySky.setJSONEncrypted(filePath, jsonData);
+    await mySky.setJSONEncrypted(filePath, jsonData);
   } catch (error) {
     console.log(error);
   }

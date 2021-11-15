@@ -24,13 +24,14 @@ function MarkdownEditor({
   useEffect(() => {
     setloadingMdEditor(true);
     async function checkExistingFile() {
-      if (openSavedDoc.open) {
-        setMarkdownText(openSavedDoc.docData.data);
+      const { open, docData } = openSavedDoc;
+      if (open) {
+        setMarkdownText(docData.data);
       }
     }
     checkExistingFile();
     setloadingMdEditor(false);
-  }, []);
+  }, [openSavedDoc]);
 
   const onNewDocumentSave = async (markdownText) => {
     setloadingMdEditor(true);
