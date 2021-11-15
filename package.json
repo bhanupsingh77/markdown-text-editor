@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.4.0",
+    "@skynetlabs/content-record-library": "^0.6.0",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -14,6 +15,7 @@
     "react-markdown": "^7.1.0",
     "react-scripts": "4.0.3",
     "remark-gfm": "^3.0.1",
+    "skynet-js": "^4.0.19-beta",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "web-vitals": "^1.1.2"
   },
