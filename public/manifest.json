@@ -3,18 +3,18 @@
   "name": "markdown text to text",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "editoricon.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "editoricon.svg",
+      "type": "image/svg",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "editoricon.svg",
+      "type": "image/svg",
       "sizes": "512x512"
     }
   ],
@@ -22,5 +22,5 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "skylink":"AQCjrEre4zfRzE1u9sn9cNEBdk4E4lX67StMJkdC35Uh-Q"
+  "skylink": "AQCjrEre4zfRzE1u9sn9cNEBdk4E4lX67StMJkdC35Uh-Q"
 }
