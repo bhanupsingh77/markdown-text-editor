@@ -127,6 +127,7 @@ function App() {
               <a
                 className="mt-4 p-1 px-4 border-2 border-solid border-gray-500 hover:border-gray-900 rounded text-xl text-white bg-black"
                 href="https://github.com/bhanupsingh77/markdown-text-editor"
+rel="noreferrer"
                 target="_blank"
               >
                 Github repo
@@ -146,6 +147,7 @@ function App() {
             <a
               className="mt-4 p-1 px-4 border-2 border-solid border-gray-500 hover:border-gray-900 rounded text-xl text-white bg-black"
               href="https://github.com/bhanupsingh77/markdown-text-editor"
+rel="noreferrer"
               target="_blank"
             >
               Github repo
