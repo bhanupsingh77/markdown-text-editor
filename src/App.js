@@ -122,6 +122,16 @@ function App() {
                 setActiveComponent={setActiveComponent}
               />
             </div>
+            <hr />
+            <div className="flex justify-center">
+              <a
+                className="mt-4 p-1 px-4 border-2 border-solid border-gray-500 hover:border-gray-900 rounded text-xl text-white bg-black"
+                href="https://github.com/bhanupsingh77/markdown-text-editor"
+                target="_blank"
+              >
+                Github repo
+              </a>
+            </div>
           </div>
         ) : (
           <div className="mt-12 flex flex-col items-center">
@@ -133,6 +143,13 @@ function App() {
             >
               Login
             </button>
+            <a
+              className="mt-4 p-1 px-4 border-2 border-solid border-gray-500 hover:border-gray-900 rounded text-xl text-white bg-black"
+              href="https://github.com/bhanupsingh77/markdown-text-editor"
+              target="_blank"
+            >
+              Github repo
+            </a>
           </div>
         )}
       </div>
